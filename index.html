@@ -4,7 +4,8 @@
   <title>Kuesdt的小说网</title> 
   <!--设置网页名称--> 
   <link type="text/css" rel="stylesheet" href="css/theme.css"> 
-  <script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=16664" charset="utf-8" async=""></script>
+  <script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=16668" charset="utf-8" async=""></script>
+  <script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=16664" charset="utf-8" async=""></script> 
   <script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=16664" charset="utf-8" async=""></script> 
   <script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=16664" charset="utf-8" async=""></script> 
   <script src="//cdn.sencdn.com/widget2/static/js/bundle.js?t=16664" charset="utf-8" async=""></script> 
@@ -24,6 +25,7 @@
   <script>
     var now = new Date().getTime();
     document.write('<link href="css/style.css?v=' + now + '" rel="stylesheet" type="text/css"/>');</script>
+  <link href="css/style.css?v=1666801888658" rel="stylesheet" type="text/css"> 
   <link href="css/style.css?v=1666455393405" rel="stylesheet" type="text/css"> 
   <link href="css/style.css?v=1666454838828" rel="stylesheet" type="text/css"> 
   <link href="css/style.css?v=1666454449718" rel="stylesheet" type="text/css"> 
@@ -45,10 +47,12 @@
    </div> 
    <div id="div_btn_container"> 
     <div id="div_btn_inner"> 
-     <div id="v36" class="div_music_tips"></div> 
+     <div id="v36" class="div_music_tips">
+      已暂停
+     </div> 
      <div class="div_btn" id="div_music" onclick="music_switch()"> 
       <!-- 音乐按钮部分 --> 
-      <img id="img_music" src="images/music.png" style="-webkit-animation:music_play_rotate 1s linear infinite"> 
+      <img id="img_music" src="images/music.png" style=""> 
       <!-- 您的浏览器不支持播放音乐 --> 
       <audio id="audio_music" autoplay="autoplay" loop="loop" src="mp3/1.mp3"> 
        <source id="v37" type="audio/mpeg"> 
@@ -101,7 +105,6 @@ console.log(record_json);
    <ul id="v57"> 
     <a id="v58" href="https://kuesdt.github.io/Jay"><li id="v59" class="sidenav-btn">主页<p id="v60"></p></li></a> 
    </ul> 
-
    <blockquote id="v61" class="blockquote">
      ▎ 关于我的 
    </blockquote> 
@@ -112,12 +115,10 @@ console.log(record_json);
     <a id="v72" href="https://twitter.com/K58753966?s=09"><li id="v73" class="sidenav-btn">Twitter<p id="v74">联系开发者</p></li></a> 
     <a id="v75" href="https://t.me/GxyXiangle"><li id="v76" class="sidenav-btn">Telegram<p id="v77">联系开发者</p></li></a> 
     <a id="v78" href="http://instagram.com/kuesdt?utm_source=qr"><li id="v79" class="sidenav-btn">Instagram<p id="v80">联系开发者</p></li></a> 
-
-     <video id="v43" poster="sp/1.png" src="images/1.mp4" width="100%" height="30%" controls="controls"> 
-     </video> 
-     <video id="v43" poster="sp/2.png" src="images/2.mp4" width="100%" height="30%" controls="controls"> 
-     </video> 
-
+    <video id="v43" poster="sp/1.png" src="images/1.mp4" width="100%" height="30%" controls="controls"> 
+    </video> 
+    <video id="v43" poster="sp/2.png" src="images/2.mp4" width="100%" height="30%" controls="controls"> 
+    </video> 
    </ul> 
    <p id="v81" style="width:100%;text-align:center;margin:0 auto;font-size:14px;color:lightgray;">2022 © <a id="v82" style="color: lightgray;" href="https://kuesdt.github.io/Jay">Xiangle(Kuesdt)</a><br id="v83">ALL RIGHTS RESERVED.</p> 
    <h1 id="v3"></h1> 
@@ -138,15 +139,21 @@ console.log(record_json);
      <h1 id="v3">Kuesdt-湘乐</h1> 
      <h1 id="v3">我的校园笔记1</h1> 
      <h1 id="v3">田沟日记·十宗罪</h1> 
-
-
-     <img src="sp/SX1.png" width="80%" alt="图片" id="v87">
+    <video id="v43" poster="sp/3.png" src="images/3.mp4" width="50%" height="50%" controls="controls"> 
+    </video> 
+     <img src="sp/SX1.png" width="80%" alt="图片" id="v87"> 
+     <h1 id="v3">免费听小说</h1> 
+     <audio src="mp3/XS1.mp3" width="100%" controls="" id="v88"></audio>
      <h1 id="v3">下一章</h1> 
-     <img src="sp/SX2.png" width="80%" alt="图片" id="v87">
+     <img src="sp/SX2.png" width="80%" alt="图片" id="v87"> 
      <h1 id="v3">下一章</h1> 
-     <img src="sp/SX3.png" width="80%" alt="图片" id="v87">
-     <h1 id="v3">本季完 共4章节 4562字</h1> 
+     <img src="sp/SX3.png" width="80%" alt="图片" id="v87"> 
+     <h1 id="v3">本季完 共3章节 4562字</h1> 
      <h1 id="v3">本文由真实故事改编</h1> 
+     <h1 id="v3">续...</h1> 
+     <h1 id="v3">我的校园笔记2</h1> 
+     <h1 id="v3">七河的伦理世界</h1> 
+     <img src="sp/SX4.png" width="80%" alt="图片" id="v87"> 
 
 
     </div> 
@@ -178,6 +185,7 @@ console.log(record_json);
 </script> 
     <script type="text/javascript">
   document.write('<script src="js/main.js?v=' + now + '"><\/script\>');</script>
+    <script src="js/main.js?v=1666801888658"></script> 
     <script src="js/main.js?v=1666455393405"></script> 
     <script src="js/main.js?v=1666454838828"></script> 
     <script src="js/main.js?v=1666454449718"></script> 
